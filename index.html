@@ -336,19 +336,14 @@
             <div class="space"></div>
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-<form action="https://formspree.io/f/yourformid" method="POST" role="form" class="contactForm">
-  <div class="form-group">
-    <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" required>
-  </div>
-  <div class="form-group">
-    <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" required>
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject">
-  </div>
-  <div class="form-group">
-    <textarea class="form-control br-radius-zero" name="message" rows="5" placeholder="Message" required></textarea>
-  </div>
+<section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xbljjlrq" method="POST">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
   <!-- Add Formspree honeypot field to prevent spam -->
   <input type="text" name="_gotcha" style="display:none">
   
